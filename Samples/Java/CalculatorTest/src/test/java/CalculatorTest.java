@@ -63,7 +63,7 @@ public class CalculatorTest {
     @Test
     public void Addition()
     {
-        CalculatorSession.findElementByName("One").click();
+        CalculatorSession.findElementByName("One");
         CalculatorSession.findElementByName("Plus").click();
         CalculatorSession.findElementByName("Seven").click();
         CalculatorSession.findElementByName("Equals").click();
